@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cvEstilos.css">
+    <link rel="shortcut icon" href="/CurriculumVitae/fotocarnet.JPG" type="image/x-icon">
+    <script src="cv.js"></script>
+    <title>CurriculumVitae</title>
+</head>
+<body id="body">
+    <div id="encabezado">
+        <div id="header">
+            <h1>Curriculum Vitae</h1>
+        </div>
+        <div id="foto">
+            <img src="/CurriculumVitae/fotocarnet.JPG" id="txtRight"
+            alt="Su navegador no permite cargar la foto"
+            width="100px" height="100"  >  
+        </div>
+        <div id="nombre">
+            <h2><i>Rodriguez German Sergio</i></h2>
+            <h3>Software Junior Developer</h3>
+            <h4>Programador en constante aprendizaje</h4>
+        </div>
+    </div>
+    <div id="informacionPersonal"> 
+        <h3>Informacion personal</h3>
+        <ul>
+            <li>Fecha de nacimiento: 08/01/1979</li>
+            <li>Email: ger.bsso@gmail.com</li>
+            <li>Telefono: 2215542254</li>
+            <li><a href="https://www.linkedin.com/in/german-sergio-rodriguez/">LinkedIn</a></li>
+        </ul>
+    </div>
+    <div id="columnas">
+        
+        <div id="estudios">
+            <h3>Estudios</h3>
+            <ul>
+                <li>Primario: 1985 – 1991 Escuela primaria - Nuestra Señora del Perpetuo Socorro  – Berisso, Buenos Aires, Argentina.</li>
+                <li>Secundario: 1992 - 1997 Tecnico electromecanico - Escuela Tecnica N 2, Berisso, Bs.As, Arg.</li>
+                <li>Universitario: 2021 - presente    Analista programador universitario a- Universidad Nacional La Plata, Argentina.
+                    Materias cursadas: Matematicas 0 , I, II ; Exprecion de problemas y algoritmos; Coceptos de algoritmos, Datos Y Programas; Organizacion de computadoras; Taller de Programacion; Arquitectura de computadoras;
+                    </li>
+            </ul>
+        </div>
+        <div id="cursos">
+            <h3>Seminarios y cursos</h3>
+            <ul>
+                <li>Fundamentos de programacion: Database - LinkedIn Learning</li>
+                <li>Scrum and Scrum advance - LinkedIn Learning</li>
+                <li>Java - LinkedIn Learning</li>
+                <li>Estructura de datos - LinkedIn Learning</li>
+                <li>Professional Testing Master - UTN.BA</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="experiencia">
+        <h3>Experiencia Laboral</h3>
+        <Ul>
+            <Li><h4>Mecanico Industrial
+                TERNIUM SIDERAR     2007 - Presente</h4>
+                Experiencia en mecanica, industria del acero, con excelente conocimiento de los programas de seguridad en la industria.
+                <br> <strong> Responsabilidades:</strong><br>
+                <li>Reparacion mecanica. Lubricacion y mantenimiento de equipos</li>	
+                <li>Diagnostico, mantenimiento, instalacion y modificacion de equipos. Mantenimiento preventivo</li>
+                <li>Capacidad para leer planos , diagramas y dibujos mecanicos. Control de inventario.</li>
+                <li>Practicas de trabajo seguro</li>
+            </Li>
+        </Ul>
+    </div>
+    <a id="link"></a>
+    <button type="button" id="boton" onclick="abrirWord()">CV English</button>
+
+    <div id="select">
+        <p>Cambiar color fondo</p>
+        <select name="color" id="color" onchange="cambiarColor(this)"> 
+            <option value="darkgoldenrod">Color por defecto</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            
+        </select>   
+    </div>
+</body>
+</html>

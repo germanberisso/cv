@@ -1,0 +1,73 @@
+body{
+    background-color: darkgoldenrod;
+    margin: 10mm;
+    font-family: 'Roboto', sans-serif;
+}
+#encabezado{
+    background-color: rgb(197, 191, 176);
+}
+
+#header{
+    text-align: center;
+    background-color: darkgoldenrod;
+    margin-top: -5mm;
+}
+#header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+}
+#foto{
+    height: auto; width: auto;
+    margin-top: 0mm;
+    margin-left: 1%;
+    float: left;
+}
+#nombre{
+    text-align: left;
+    margin-left: 15%;
+}
+#columnas{
+    background-color: rgb(197, 191, 176);
+    display: flex;
+    flex-direction: row;
+}
+#columnas > div{
+    width: 50%;
+}
+
+#informacionPersonal{
+    background-color: rgb(197, 191, 176);
+    margin-top: 1mm;
+    text-align: justify;
+}
+#informacionPersonal h3{
+    text-align: center;
+}
+#estudios{
+    margin: 1mm;
+    text-align: justify;
+}
+#estudios h3{
+    text-align: center;
+}
+#cursos{
+    margin: 1mm;
+    text-align: justify;
+}
+#cursos h3{
+    text-align: center;
+}
+#experiencia{
+    background-color: rgb(197, 191, 176);
+    text-align: justify;
+}
+#experiencia h3{
+    text-align: center;
+}
+#select{
+    margin-top: -13mm;
+    text-align: right;
+}
+#select p{
+    margin-bottom: 0mm;
+}
