@@ -26,10 +26,24 @@ body{
     text-align: left;
     margin-left: 15%;
 }
+#info{
+    text-align: center;
+    background-color: rgb(197, 191, 176);  
+}
+#contacto{
+    background-color: rgb(197, 191, 176);
+    margin-top: 1mm;
+    text-align: justify;
+}
+#nombre{
+    text-align: left;
+    margin-left: 15%;
+}
 #columnas{
     background-color: rgb(197, 191, 176);
     display: flex;
     flex-direction: row;
+    margin-top: 5mm;
 }
 #columnas > div{
     width: 50%;
@@ -37,11 +51,8 @@ body{
 
 #informacionPersonal{
     background-color: rgb(197, 191, 176);
-    margin-top: 1mm;
+    margin-top: 2mm;
     text-align: justify;
-}
-#informacionPersonal h3{
-    text-align: center;
 }
 #estudios{
     margin: 1mm;
