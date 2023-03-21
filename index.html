@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="cvEstilos.css">
     <link rel="shortcut icon" href="/cv/fotocarnet.JPG" type="image/x-icon">
     <script src="cv.js"></script>
-    <title>CurriculumVitae</title>
+    <title>CurriculumVitae German Sergio Rodriguez</title>
 </head>
 <body id="body">
     <div id="encabezado">
@@ -25,15 +25,28 @@
             <h4>Programador en constante aprendizaje</h4>
         </div>
     </div>
-    <div id="informacionPersonal"> 
-        <h3>Informacion personal</h3>
-        <ul>
-            <li>Fecha de nacimiento: 08/01/1979</li>
-            <li>Email: ger.bsso@gmail.com</li>
-            <li>Telefono: 2215542254</li>
-            <li><a href="https://www.linkedin.com/in/german-sergio-rodriguez/">LinkedIn</a></li>
-        </ul>
-    </div>
+    <div id="info">  
+        <h3>Informacion personal</h3>  
+        <div id="columnas">      
+            <div id="informacionPersonal">           
+                <ul>
+                    <li>Fecha de nacimiento: 08/01/1979</li>
+                    <li>Nacionalidad: Argentino</li>
+                    <li>Localidad: Berisso, Bs.As.</li>
+                </ul>
+            </div>
+            <div id="contacto">          
+                <ul>
+                    <li><img src="/cv/img/gmail.png" id="txtRight" alt="LinkedIn" 
+                        width="25px" height="20"  >   ger.bsso@gmail.com  </li>
+                    <li><a href="https://www.linkedin.com/in/german-sergio-rodriguez/">
+                        <img src="/cv/img/ln.png" id="txtRight" alt="LinkedIn" 
+                        width="30px" height="30"  ></a></li>            
+                    <li><a aria-label="Chat on WhatsApp" href="https://wa.me/549221542254"> <img alt="Chat on WhatsApp" src="/cv/img/wabutton.svg" /> </a></li>
+                </ul>
+            </div>    
+        </div>    
+    </div>       
     <div id="columnas">
         
         <div id="estudios">
@@ -49,11 +62,26 @@
         <div id="cursos">
             <h3>Seminarios y cursos</h3>
             <ul>
-                <li>Fundamentos de programacion: Database - LinkedIn Learning</li>
-                <li>Scrum and Scrum advance - LinkedIn Learning</li>
-                <li>Java - LinkedIn Learning</li>
-                <li>Estructura de datos - LinkedIn Learning</li>
-                <li>Professional Testing Master - UTN.BA</li>
+                <li>Fundamentos de programacion: Database - LinkedIn Learning
+                    <button onclick="window.open('https://www.linkedin.com/learning/certificates/d4acab4d66a1ee50b130521d52aa99d7a185efe1165d30375f6aa09114380127?trk=backfilled_certificate')" 
+                    id="Boton">Ver</button>                     
+                </li>
+                <li>Scrum and Scrum advance - LinkedIn Learning
+                    <button onclick="window.open('https://www.linkedin.com/learning/certificates/50cf531a24ca983065055f3697af723d3dbe0aa533d14aa5b599a267076e9bc2?trk=backfilled_certificate')" 
+                    id="Boton">Ver</button>                     
+                </li>
+                <li>Java - LinkedIn Learning
+                    <button onclick="window.open('https://www.linkedin.com/learning/certificates/6d65b05fcebbc790e42248e7da9d06a5438812f85053a94792097854e996a2a0?trk=backfilled_certificate')" 
+                    id="Boton">Ver</button>                     
+                </li>
+                <li>Estructura de datos - LinkedIn Learning
+                    <button onclick="window.open('https://www.linkedin.com/learning/certificates/d4acab4d66a1ee50b130521d52aa99d7a185efe1165d30375f6aa09114380127?trk=backfilled_certificate')" 
+                    id="Boton">Ver</button>                    
+                </li>
+                <li>Professional Testing Master - UTN.BA
+                    <button onclick="window.open('https://www.linkedin.com/in/german-sergio-rodriguez/details/education/1635515522798/single-media-viewer/?profileId=ACoAADia-NABgy0Uc4LutvjuMyqF2eoe5cVeY5Y')" 
+                    id="Boton">Ver</button>
+                </li>
             </ul>
         </div>
     </div>
